@@ -11,8 +11,7 @@ We tested a MLP neural network and RNN neural network that produced similar resu
 
 | Performance of MLP  |  | Performance of RNN |
 | ------------- | ------------- |
-|  Test Accuracy: 0.522
-  | Test Accuracy: 0.5415  |
+|  Test Accuracy: 0.522 | Test Accuracy: 0.5415  |
 | ROC Curve area under curve (AUC): 0.805 | ROC Curve area under curve (AUC): 0.806  |
 |  Multi-class ROC Curve area under curve (AUC):  0.233 | Multi-class ROC Curve area under curve (AUC): 0.278  |
 
