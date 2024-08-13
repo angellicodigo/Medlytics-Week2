@@ -9,6 +9,13 @@ Time series data of 7 physioloigcal singals. https://www.physionet.org/physioban
 ## Presentation
 We tested a MLP neural network and RNN neural network that produced similar results. We can improve our results by using models like LSTM layer, which literature reviews suggest accurate for predicitng sleep stages. We also could simplify the training data using normalization or feature selection. 
 
+| Performance of MLP  |  | Performance of RNN |
+| ------------- | ------------- |
+|  Test Accuracy: 0.522
+  | Test Accuracy: 0.5415  |
+| ROC Curve area under curve (AUC): 0.805 | ROC Curve area under curve (AUC): 0.806  |
+|  Multi-class ROC Curve area under curve (AUC):  0.233 | Multi-class ROC Curve area under curve (AUC): 0.278  |
+
 # What else does Medlytics Week 2 contain?
 This is the repository for all lectures, assignments, and datasets for Week 2 of the BeaverWorks Medlytics course for 2022. The slides are provided here for easy reference, but will be presented in lecture format. You should fork this repository at the beginning of the week and work on your own copy when completing notebooks and challenge projects.
 
